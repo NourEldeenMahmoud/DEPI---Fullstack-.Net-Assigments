@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>@ViewBag.Message</h1>
+<h2>Student List View</h2>
+<ul>
+    @foreach (var student in ViewBag.Students)
+    {
+        <li><a href="/Home/Details?name=@student">@student</a></li>
+    }
+</ul>
+

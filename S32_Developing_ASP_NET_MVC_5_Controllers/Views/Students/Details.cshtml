@@ -1,0 +1,12 @@
+@model S27_Developing_ASP_NET_MVC_5_Controllers.Controllers.Student
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+<h1>Student Details</h1>
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Age:</strong> @Model.Age</p>
+<a asp-action="Index">Back to List</a>
+

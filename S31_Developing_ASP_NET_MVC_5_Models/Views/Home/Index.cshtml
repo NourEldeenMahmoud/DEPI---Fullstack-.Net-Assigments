@@ -1,0 +1,42 @@
+@model S26_Developing_ASP_NET_MVC_5_Models.Models.Student
+@{
+    ViewData["Title"] = "Student Model";
+}
+
+<h1>Student Model Example</h1>
+
+@if (Model != null)
+{
+    <div>
+        <p><strong>ID:</strong> @Model.Id</p>
+        <p><strong>Name:</strong> @Model.Name</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Age:</strong> @Model.Age</p>
+        <p><strong>Valid:</strong> @Model.IsValid()</p>
+    </div>
+}
+
+@if (ViewBag.Message != null)
+{
+    <p style="color: green;">@ViewBag.Message</p>
+}
+
+<form method="post" asp-action="Create">
+    <div>
+        <label>Name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label>Age:</label>
+        <input asp-for="Age" />
+        <span asp-validation-for="Age"></span>
+    </div>
+    <button type="submit">Create Student</button>
+</form>
+

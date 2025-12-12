@@ -1,0 +1,23 @@
+@model S27_Developing_ASP_NET_MVC_5_Controllers.Controllers.Student
+@{
+    ViewData["Title"] = "Create Student";
+}
+
+<h1>Create Student</h1>
+<form asp-action="Create" method="post">
+    <div>
+        <label>Name:</label>
+        <input asp-for="Name" required />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" type="email" required />
+    </div>
+    <div>
+        <label>Age:</label>
+        <input asp-for="Age" type="number" required />
+    </div>
+    <button type="submit">Create</button>
+    <a asp-action="Index">Cancel</a>
+</form>
+

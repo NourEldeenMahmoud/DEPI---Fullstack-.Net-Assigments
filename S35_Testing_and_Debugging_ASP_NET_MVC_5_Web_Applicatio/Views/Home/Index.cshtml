@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Testing & Debugging";
+}
+
+<h1>Calculator Test</h1>
+<form method="get" action="/Home/Calculate">
+    <input type="number" name="a" placeholder="Number 1" required />
+    <select name="operation">
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+        <option value="multiply">Multiply</option>
+        <option value="divide">Divide</option>
+    </select>
+    <input type="number" name="b" placeholder="Number 2" required />
+    <button type="submit">Calculate</button>
+</form>
+
+@if (ViewBag.Result != null)
+{
+    <p style="color: green;">Result: @ViewBag.A @ViewBag.Operation @ViewBag.B = @ViewBag.Result</p>
+}
+@if (ViewBag.Error != null)
+{
+    <p style="color: red;">Error: @ViewBag.Error</p>
+}
+

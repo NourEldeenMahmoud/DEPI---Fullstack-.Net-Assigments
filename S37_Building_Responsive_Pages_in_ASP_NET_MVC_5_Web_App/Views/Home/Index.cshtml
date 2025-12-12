@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Responsive Page";
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container {
+        padding: 20px;
+    }
+    @media (max-width: 600px) {
+        .container {
+            padding: 10px;
+            font-size: 14px;
+        }
+        h1 { font-size: 20px; }
+    }
+</style>
+
+<div class="container">
+    <h1>Responsive MVC Page</h1>
+    <p><strong>Desktop View:</strong> Full layout with all details</p>
+    <p><strong>Mobile View:</strong> Optimized layout for small screens</p>
+    <div>
+        <p>Student: Ahmed</p>
+        <p>Grade: 85</p>
+        <p>Subject: Math</p>
+        <p>Date: 2025-01-07</p>
+    </div>
+</div>
+

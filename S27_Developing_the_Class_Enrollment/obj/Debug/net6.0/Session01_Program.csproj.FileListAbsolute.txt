@@ -1,0 +1,14 @@
+E:\Assigments\S01_Developing_the_Class_Enrollment\bin\Debug\net6.0\Session01_Program.exe
+E:\Assigments\S01_Developing_the_Class_Enrollment\bin\Debug\net6.0\Session01_Program.deps.json
+E:\Assigments\S01_Developing_the_Class_Enrollment\bin\Debug\net6.0\Session01_Program.runtimeconfig.json
+E:\Assigments\S01_Developing_the_Class_Enrollment\bin\Debug\net6.0\Session01_Program.dll
+E:\Assigments\S01_Developing_the_Class_Enrollment\bin\Debug\net6.0\Session01_Program.pdb
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\Session01_Program.GeneratedMSBuildEditorConfig.editorconfig
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\Session01_Program.AssemblyInfoInputs.cache
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\Session01_Program.AssemblyInfo.cs
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\Session01_Program.csproj.CoreCompileInputs.cache
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\Session01_Program.dll
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\refint\Session01_Program.dll
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\Session01_Program.pdb
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\Session01_Program.genruntimeconfig.cache
+E:\Assigments\S01_Developing_the_Class_Enrollment\obj\Debug\net6.0\ref\Session01_Program.dll

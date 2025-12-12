@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "MVC Application Design";
+}
+
+<h1>MVC Application Routes</h1>
+<ul>
+    @foreach (var route in ViewBag.Routes)
+    {
+        <li><a href="@route">@route</a></li>
+    }
+</ul>
+<p><a href="/custom-route">Custom Route Example</a></p>
+

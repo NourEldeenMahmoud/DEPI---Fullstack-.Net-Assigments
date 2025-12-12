@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Authorization Demo";
+}
+
+<h1>Access Control Example</h1>
+<p>Current User Role: @ViewBag.UserRole</p>
+<ul>
+    <li><a href="/Home/Grades">View Grades (All Users)</a></li>
+    <li><a href="/Home/Admin">Admin Page (Teachers Only)</a></li>
+</ul>
+

@@ -1,0 +1,27 @@
+@model List<S27_Developing_ASP_NET_MVC_5_Controllers.Controllers.Student>
+@{
+    ViewData["Title"] = "Students List";
+}
+
+<h1>Students</h1>
+<a asp-action="Create">Add New Student</a>
+<table border="1" style="margin-top: 20px;">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.Id</td>
+            <td>@student.Name</td>
+            <td>@student.Email</td>
+            <td>@student.Age</td>
+            <td><a asp-action="Details" asp-route-id="@student.Id">Details</a></td>
+        </tr>
+    }
+</table>
+
